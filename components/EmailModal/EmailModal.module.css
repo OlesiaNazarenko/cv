@@ -1,0 +1,16 @@
+.cancelBtn {
+  background-color: var(--gray-color);
+  color: var(--main-bg-color);
+  margin-right: 20px;
+}
+
+.btnWrap {
+  margin: 20px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.mainIcon {
+  position: absolute;
+  margin-top: -2px;
+  margin-left: 5px;
+}

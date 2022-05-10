@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Koulen";
+  src: url("../fonts/Koulen/koulen-regular-webfont.woff") format("woff"),
+    url("../fonts/Koulen/Koulen-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "JostExtraLight";
+  src: url("../fonts/Jost/Jost-ExtraLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "JostLight";
+  src: url("../fonts/Jost/Jost-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "JostRegular";
+  src: url("../fonts/Jost/Jost-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "JostMedium";
+  src: url("../fonts/Jost/Jost-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "JostBold";
+  src: url("../fonts/Jost/Jost-Bold.ttf") format("truetype");
+}
+:root {
+  --main-bg-color: #ffff;
+  --light-pink-color: #f6e0e0;
+  --main-text-color: #0c0c0c;
+  --light-gray-color: #f8f8f8;
+  --gray-color: #c7c7c7;
+  --light-nude-color: #ddcaca;
+  --brown-color: #948686;
+  --dark-brown-color: #4c4545;
+  --gold-color: #cbaa7c;
+  --light-blue-color: #e0f6f6;
+  --light-green-color: #ebf6e0;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--light-gray-color);
+  color: var(--main-text-color);
+}
+h2 {
+  font-family: JostRegular, sans-serif;
+}
+p {
+  font-family: JostLight, sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.row {
+  align-items: center;
+}
+.navbar {
+  background: var(--light-gray-color);
+}
+.navbar-nav {
+  width: 100%;
+  justify-content: flex-end;
+}
+.active {
+  border-radius: 10px;
+}
+.dropdown-item:active {
+  background-color: var(--gray-color) !important;
+  color: var(--main-bg-color) !important;
+}
+
+.tabLink,
+.nav-link {
+  color: var(--main-text-color) !important;
+}
+.nav-link.active,
+.tabLink:hover,
+.nav-link:hover,
+.tabLink:focus,
+.nav-link:focus,
+.tabLink:active .nav-link:active {
+  color: var(--gold-color) !important;
+}
+.form-control {
+  margin-bottom: 20px;
+}
+.form-control:focus {
+  box-shadow: none !important;
+  border: 1px solid var(--gold-color) !important;
+}
+.form-control::placeholder {
+  background-color: var(--main-bg-color) !important;
+}
+.modal-body {
+  font-family: JostLight;
+}
+.mb-3 {
+  justify-content: center;
+}
+@media screen and (max-width: 500px) {
+  .row {
+    flex-direction: column;
+  }
+  /* h2 {
+    font-size: 14px !important;
+  }
+  p {
+    font-size: 12px;
+  } */
+}
+
+@media screen and (max-width: 1199px) {
+  .h2,
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+}

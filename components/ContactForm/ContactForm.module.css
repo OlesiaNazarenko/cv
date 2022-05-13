@@ -1,0 +1,48 @@
+.contactsSection {
+  margin: 90px auto 0;
+  width: 100%;
+  padding: 40px 20px;
+  background-color: var(--light-pink-color);
+}
+.contactsSection p,
+.contactsSection h2 {
+  text-align: center;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  margin: auto;
+}
+.form {
+  width: 100%;
+}
+.form input[type="submit"] {
+  background-color: var(--gold-color);
+  border: transparent;
+  display: block;
+  margin-left: auto;
+}
+.form input[type="submit"]:hover,
+.form input[type="submit"]:focus {
+  color: var(--main-bg-color);
+  border-color: var(--light-nude-color);
+  background-color: var(--light-nude-color);
+  box-shadow: none;
+  outline: transparent;
+}
+@media screen and (min-width: 468px) {
+  .contactForm {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contactForm {
+    width: 60%;
+  }
+  .form {
+    width: 70%;
+  }
+}

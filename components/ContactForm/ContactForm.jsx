@@ -1,12 +1,10 @@
-import { Modal } from "react-bootstrap";
+import s from "./ContactForm.module.css";
+import { Container } from "react-bootstrap";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Notify } from "notiflix";
-import s from "./EmailModal.module.css";
-
-export default function EmailModal({ onHide, show }) {
+export default function ContactForm() {
   const form = useRef();
-
   const [userName, setUserName] = useState();
   const successMsg = `
       Your message has been sent. Thank you for writing to me! &#128522;
@@ -45,15 +43,25 @@ export default function EmailModal({ onHide, show }) {
     e.target.reset();
   };
   return (
-    <>
-      <Modal show={show} onHide={onHide}>
-        <Modal.Header closeButton>
-          <Modal.Title>
-            Let’s get in touch <span className={s.mainIcon}> &#9993; </span>
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <form ref={form} onSubmit={sendEmail} autoComplete="off">
+    <section
+      className={[s.contactsSection, "contactsSection"].join(" ")}
+      id="contactForm"
+    >
+      <Container>
+        <div className={s.contactForm}>
+          <h2> Let's get in touch</h2>
+          <p>
+            Interested in hiring me for your project? You can fill in the
+            contact form below or send me an email to{" "}
+            <b>olesianazarenko.dev@gmail.com</b>
+          </p>
+
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            autoComplete="off"
+            className={s.form}
+          >
             <label className="form-label">Name*</label>
             <input
               type="text"
@@ -75,18 +83,11 @@ export default function EmailModal({ onHide, show }) {
             />
             <label className="form-label">Message*</label>
             <textarea className="form-control" name="message" required />
-            <div className={s.btnWrap}>
-              <input
-                type="button"
-                className={[s.cancelBtn, "btn"].join(" ")}
-                value="Cancel"
-                onClick={onHide}
-              />
-              <input type="submit" className="btn-success btn" value="Send" />
-            </div>
+
+            <input type="submit" className="btn-success btn" value="Send" />
           </form>
-        </Modal.Body>
-      </Modal>
-    </>
+        </div>
+      </Container>
+    </section>
   );
 }

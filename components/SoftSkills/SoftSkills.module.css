@@ -1,0 +1,15 @@
+.softSkillsSection {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+  margin: 40px 0;
+  /* border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6; */
+}
+.image {
+  margin-bottom: 10px;
+  filter: saturate(120%) contrast(110%);
+}
+.softSkillsSection h3 {
+  font-size: 20px;
+}

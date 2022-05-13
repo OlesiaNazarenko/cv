@@ -1,28 +1,33 @@
 import Head from "next/head";
-import Image from "next/image";
 import Header from "../components/Header/Header";
 import Home from "../components/Home/Home";
-import styles from "../styles/Home.module.css";
-import Skills from "../components/Skills/Skills";
+import SoftSkills from "../components/SoftSkills/SoftSkills";
+import Projects from "../components/Projects";
 import About from "../components/About/About";
-
+import Footer from "../components/Footer";
+import ContactForm from "../components/ContactForm";
 export default function HomePage() {
   return (
     <>
       <Head>
         <title>Olesia Nazarenko.CV</title>
-        <meta charset="UTF-8" />
         <meta name="description" content="Olesia Nazarenko CV" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header id="header" />
+      <header>
+        <Header />
+      </header>
       <main>
-        <Home id="home" />
-        <Skills id="skills" />
-        <About id="about" />
+        <Home />
+        <About />
+        <SoftSkills />
+        <Projects />
+        <ContactForm />
       </main>
 
-      <footer className={styles.footer}></footer>
+      <footer>
+        <Footer />
+      </footer>
       <script src="https://unpkg.com/react/umd/react.production.min.js"></script>
 
       <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></script>

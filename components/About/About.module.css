@@ -2,13 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 90px;
   margin-bottom: 40px;
 }
 
 .sectionWrap {
   padding: 20px 0 20px 0;
 }
+
 .wrap {
   width: 100%;
 }
@@ -25,8 +26,8 @@
 }
 .subTitle {
   font-size: 16px;
-  font-family: JostRegular;
-  margin-top: 20px;
+  font-family: JostMedium;
+  margin-top: 10px;
   margin-left: 8px;
   margin-bottom: 0;
 }
@@ -38,17 +39,14 @@
 .schoolName {
   margin-left: 8px;
 }
-.row {
-  align-items: flex-start;
-}
+
 .tabWrap {
   width: 100%;
   margin: 10px auto;
   padding: 20px;
-
   background-color: var(--main-bg-color);
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
 }
 .contentWrap {
   display: flex;
@@ -60,7 +58,6 @@
   margin-top: 10px;
 }
 .tabWrap p {
-  margin-bottom: 0;
   font-size: 14px;
 }
 .tabWrap ul {
@@ -85,7 +82,7 @@
 }
 
 .downloadCvBtn {
-  margin-top: 20px;
+  margin-top: 10px;
   color: var(--main-bg-color);
   background-color: var(--gold-color);
   border: var(--gold-color);

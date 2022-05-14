@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Container, Tabs, Tab } from "react-bootstrap";
 import HTML from "./HTML";
-import JavaScript from "./JavaScript.jsx";
+import JavaScript from "./Javascript";
 import ReactJS from "./React";
 import Next from "./Next";
 import Team from "./Team";

@@ -1,6 +1,7 @@
 import s from "./Projects.module.css";
 import { Row, Col } from "react-bootstrap";
 import Image from "next/image";
+import Links from "./Links";
 export default function ReactJS() {
   return (
     <>
@@ -22,22 +23,14 @@ export default function ReactJS() {
             </div>
           </div>
           <h3>Image gallery</h3>
-          <div className={s.linksWrap}>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://olesianazarenko.github.io/goit-react-hw-04-hooks-images/"
-            >
-              Demo
-            </a>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://github.com/OlesiaNazarenko/goit-react-hw-04-hooks-images"
-            >
-              GitHub
-            </a>
-          </div>
+          <Links
+            pathDemo={
+              "https://olesianazarenko.github.io/goit-react-hw-04-hooks-images/"
+            }
+            pathGitHub={
+              "https://github.com/OlesiaNazarenko/goit-react-hw-04-hooks-images"
+            }
+          />
         </Col>
         <Col className={s.col}>
           <div className={s.image}>
@@ -59,22 +52,12 @@ export default function ReactJS() {
           </div>
 
           <h3>Movie search app using REST API and React Router v6</h3>
-          <div className={s.linksWrap}>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://on-movies.netlify.app/"
-            >
-              Demo
-            </a>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://github.com/OlesiaNazarenko/goit-react-hw-05-movies"
-            >
-              GitHub
-            </a>
-          </div>
+          <Links
+            pathDemo={"https://on-movies.netlify.app/"}
+            pathGitHub={
+              "https://github.com/OlesiaNazarenko/goit-react-hw-05-movies"
+            }
+          />
         </Col>
       </Row>
       <Row>
@@ -100,23 +83,12 @@ export default function ReactJS() {
           </div>
 
           <h3>&#34;Phonebook&#34; app</h3>
-
-          <div className={s.linksWrap}>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://phonebook-on.netlify.app/"
-            >
-              Demo
-            </a>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://github.com/OlesiaNazarenko/goit-react-hw-08-phonebook"
-            >
-              GitHub
-            </a>
-          </div>
+          <Links
+            pathDemo={"https://phonebook-on.netlify.app/"}
+            pathGitHub={
+              "https://github.com/OlesiaNazarenko/goit-react-hw-08-phonebook"
+            }
+          />
         </Col>
         <Col className={s.col}>
           <div className={s.image}>
@@ -145,22 +117,10 @@ export default function ReactJS() {
             </div>
           </div>
           <h3>&#34;Wallet&#34; app&#44; fullstack team project</h3>
-          <div className={s.linksWrap}>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://kdv-wallet-project.netlify.app/"
-            >
-              Demo
-            </a>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://github.com/DenisK0s/dementors-wallet-project"
-            >
-              GitHub
-            </a>
-          </div>
+          <Links
+            pathDemo={"https://kdv-wallet-project.netlify.app/"}
+            pathGitHub={"https://github.com/DenisK0s/dementors-wallet-project"}
+          />
         </Col>
       </Row>
     </>

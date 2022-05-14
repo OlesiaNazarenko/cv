@@ -1,6 +1,7 @@
 import s from "./Projects.module.css";
 import { Row, Col } from "react-bootstrap";
 import Image from "next/image";
+import Links from "./Links";
 export default function HTML() {
   return (
     <Row>
@@ -19,25 +20,11 @@ export default function HTML() {
             <span className={s.infoSpan}>Parcel</span>
           </div>
         </div>
-
         <h3>Landing page &#34;WebStudio&#34;</h3>
-
-        <div className={s.linksWrap}>
-          <a
-            target="_blank"
-            className={["btn", "btn-light", s.link].join(" ")}
-            href="https://olesianazarenko.github.io/goit-markup-hw-08/"
-          >
-            Demo
-          </a>
-          <a
-            target="_blank"
-            className={["btn", "btn-light", s.link].join(" ")}
-            href="https://github.com/OlesiaNazarenko/goit-markup-hw-08"
-          >
-            GitHub
-          </a>
-        </div>
+        <Links
+          pathDemo={"https://olesianazarenko.github.io/goit-markup-hw-08/"}
+          pathGitHub={"https://github.com/OlesiaNazarenko/goit-markup-hw-08"}
+        />
       </Col>
       <Col className={s.col}>
         <div className={s.image}>
@@ -55,22 +42,10 @@ export default function HTML() {
           </div>
         </div>
         <h3>Landing page &#34;Ice cream&#34;</h3>
-        <div className={s.linksWrap}>
-          <a
-            target="_blank"
-            className={["btn", "btn-light", s.link].join(" ")}
-            href="https://byshov92.github.io/ice-cream-creativity-proj/"
-          >
-            Demo
-          </a>
-          <a
-            target="_blank"
-            className={["btn", "btn-light", s.link].join(" ")}
-            href="https://github.com/Byshov92/ice-cream-creativity-proj"
-          >
-            GitHub
-          </a>
-        </div>
+        <Links
+          pathDemo={"https://byshov92.github.io/ice-cream-creativity-proj/"}
+          pathGitHub={"https://github.com/Byshov92/ice-cream-creativity-proj"}
+        />
       </Col>
     </Row>
   );

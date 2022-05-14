@@ -1,6 +1,7 @@
 import s from "./Projects.module.css";
 import { Row, Col } from "react-bootstrap";
 import Image from "next/image";
+import Links from "./Links";
 export default function JavaScript() {
   return (
     <>
@@ -27,22 +28,10 @@ export default function JavaScript() {
             </div>
           </div>
           <h3>&#34;Movie libriary&#34; team project</h3>
-          <div className={s.linksWrap}>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://hrendzha.github.io/filmoteka/"
-            >
-              Demo
-            </a>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://github.com/hrendzha/filmoteka"
-            >
-              GitHub
-            </a>
-          </div>
+          <Links
+            pathDemo={"https://hrendzha.github.io/filmoteka/"}
+            pathGitHub={"https://github.com/hrendzha/filmoteka"}
+          />
         </Col>
         <Col className={s.col}>
           <div className={s.image}>
@@ -59,22 +48,12 @@ export default function JavaScript() {
             </div>
           </div>
           <h3>2 apps&#58; Countdown and Stopwatch based on Date Object</h3>
-          <div className={s.linksWrap}>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://olesianazarenko.github.io/goit-js-hw-11-timer/"
-            >
-              Demo
-            </a>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://github.com/OlesiaNazarenko/goit-js-hw-11-timer"
-            >
-              GitHub
-            </a>
-          </div>
+          <Links
+            pathDemo={"https://olesianazarenko.github.io/goit-js-hw-11-timer/"}
+            pathGitHub={
+              "https://github.com/OlesiaNazarenko/goit-js-hw-11-timer"
+            }
+          />
         </Col>
       </Row>
       <Row>
@@ -96,23 +75,14 @@ export default function JavaScript() {
           </div>
 
           <h3>Theme switcher using LocalStorage</h3>
-
-          <div className={s.linksWrap}>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://olesianazarenko.github.io/goit-js-hw-10-food-service/"
-            >
-              Demo
-            </a>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://github.com/OlesiaNazarenko/goit-js-hw-10-food-service"
-            >
-              GitHub
-            </a>
-          </div>
+          <Links
+            pathDemo={
+              "https://olesianazarenko.github.io/goit-js-hw-10-food-service/"
+            }
+            pathGitHub={
+              "https://github.com/OlesiaNazarenko/goit-js-hw-10-food-service"
+            }
+          />
         </Col>
         <Col className={s.col}>
           <div className={s.image}>
@@ -132,22 +102,14 @@ export default function JavaScript() {
             </div>
           </div>
           <h3>Search by country app based on restcountries&#46;com</h3>
-          <div className={s.linksWrap}>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://olesianazarenko.github.io/goit-js-hw-12-countries/"
-            >
-              Demo
-            </a>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://github.com/OlesiaNazarenko/goit-js-hw-12-countries"
-            >
-              GitHub
-            </a>
-          </div>
+          <Links
+            pathDemo={
+              "https://olesianazarenko.github.io/goit-js-hw-12-countries/"
+            }
+            pathGitHub={
+              "https://github.com/OlesiaNazarenko/goit-js-hw-12-countries"
+            }
+          />
         </Col>
       </Row>
       <Row>
@@ -172,23 +134,14 @@ export default function JavaScript() {
           </div>
 
           <h3>Image search basic version</h3>
-
-          <div className={s.linksWrap}>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://olesianazarenko.github.io/goit-js-hw-13-image-finder/"
-            >
-              Demo
-            </a>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://github.com/OlesiaNazarenko/goit-js-hw-13-image-finder"
-            >
-              GitHub
-            </a>
-          </div>
+          <Links
+            pathDemo={
+              "https://olesianazarenko.github.io/goit-js-hw-13-image-finder/"
+            }
+            pathGitHub={
+              "https://github.com/OlesiaNazarenko/goit-js-hw-13-image-finder"
+            }
+          />
         </Col>
         <Col className={s.col}>
           <div className={s.image}>
@@ -210,22 +163,14 @@ export default function JavaScript() {
             </div>
           </div>
           <h3>Image search IntersectionObserver version</h3>
-          <div className={s.linksWrap}>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://olesianazarenko.github.io/goit-js-hw-13-image-finderIO/"
-            >
-              Demo
-            </a>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://github.com/OlesiaNazarenko/goit-js-hw-13-image-finderIO"
-            >
-              GitHub
-            </a>
-          </div>
+          <Links
+            pathDemo={
+              "https://olesianazarenko.github.io/goit-js-hw-13-image-finderIO/"
+            }
+            pathGitHub={
+              "https://github.com/OlesiaNazarenko/goit-js-hw-13-image-finderIO"
+            }
+          />
         </Col>
       </Row>
     </>

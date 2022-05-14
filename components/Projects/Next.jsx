@@ -1,6 +1,7 @@
 import s from "./Projects.module.css";
 import { Row, Col } from "react-bootstrap";
 import Image from "next/image";
+import Links from "./Links";
 export default function Next() {
   return (
     <>
@@ -26,23 +27,10 @@ export default function Next() {
           </div>
 
           <h3>&#34;Kompromix&#34; &#45; website for a construction company</h3>
-
-          <div className={s.linksWrap}>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://kompromix.netlify.app/"
-            >
-              Demo
-            </a>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://github.com/OlesiaNazarenko/kompromix"
-            >
-              GitHub
-            </a>
-          </div>
+          <Links
+            pathDemo={"https://kompromix.netlify.app/"}
+            pathGitHub={"https://github.com/OlesiaNazarenko/kompromix"}
+          />
         </Col>
         <Col className={s.col}>
           <div className={s.image}>
@@ -58,26 +46,14 @@ export default function Next() {
               <span className={s.infoSpan}>Bootstrap</span>
               <span className={s.infoSpan}>Emailjs</span>
               <span className={s.infoSpan}>notiflix</span>
-              <span className={s.infoSpan}>Material-icons</span>
+              <span className={s.infoSpan}>Material&#45;icons</span>
             </div>
           </div>
           <h3>Portfolio</h3>
-          <div className={s.linksWrap}>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://byshov92.github.io/ice-cream-creativity-proj/"
-            >
-              Demo
-            </a>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://github.com/Byshov92/ice-cream-creativity-proj"
-            >
-              GitHub
-            </a>
-          </div>
+          <Links
+            pathDemo={"https://byshov92.github.io/ice-cream-creativity-proj/"}
+            pathGitHub={"https://github.com/Byshov92/ice-cream-creativity-proj"}
+          />
         </Col>
       </Row>
     </>

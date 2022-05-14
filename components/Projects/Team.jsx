@@ -1,6 +1,7 @@
 import s from "./Projects.module.css";
 import { Row, Col } from "react-bootstrap";
 import Image from "next/image";
+import Links from "./Links";
 export default function Team() {
   return (
     <>
@@ -21,22 +22,10 @@ export default function Team() {
             </div>
           </div>
           <h3>Landing page &#34;Ice cream&#34;</h3>
-          <div className={s.linksWrap}>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://byshov92.github.io/ice-cream-creativity-proj/"
-            >
-              Demo
-            </a>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://github.com/Byshov92/ice-cream-creativity-proj"
-            >
-              GitHub
-            </a>
-          </div>
+          <Links
+            pathDemo={"https://byshov92.github.io/ice-cream-creativity-proj/"}
+            pathGitHub={"https://github.com/Byshov92/ice-cream-creativity-proj"}
+          />
         </Col>
         <Col className={s.col}>
           <div className={s.image}>
@@ -60,22 +49,10 @@ export default function Team() {
             </div>
           </div>
           <h3>&#34;Movie libriary&#34; team project</h3>
-          <div className={s.linksWrap}>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://hrendzha.github.io/filmoteka/"
-            >
-              Demo
-            </a>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://github.com/hrendzha/filmoteka"
-            >
-              GitHub
-            </a>
-          </div>
+          <Links
+            pathDemo={"https://hrendzha.github.io/filmoteka/"}
+            pathGitHub={"https://github.com/hrendzha/filmoteka"}
+          />
         </Col>
       </Row>
       <Row>
@@ -106,22 +83,10 @@ export default function Team() {
             </div>
           </div>
           <h3>&#34;Wallet&#34; app&#44; fullstack team project</h3>
-          <div className={s.linksWrap}>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://kdv-wallet-project.netlify.app/"
-            >
-              Demo
-            </a>
-            <a
-              target="_blank"
-              className={["btn", "btn-light", s.link].join(" ")}
-              href="https://github.com/DenisK0s/dementors-wallet-project"
-            >
-              GitHub
-            </a>
-          </div>
+          <Links
+            pathDemo={"https://kdv-wallet-project.netlify.app/"}
+            pathGitHub={"https://github.com/DenisK0s/dementors-wallet-project"}
+          />
         </Col>
         <Col className={s.col}></Col>
       </Row>

@@ -1,6 +1,5 @@
-import Image from "next/image";
 import { useState } from "react";
-import { Container, Row, Col, Tabs, Tab } from "react-bootstrap";
+import { Container, Tabs, Tab } from "react-bootstrap";
 import HTML from "./HTML";
 import JavaScript from "./JavaScript";
 import ReactJS from "./React";

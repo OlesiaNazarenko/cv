@@ -1,4 +1,5 @@
 import s from "./About.module.css";
+import Image from "next/image";
 import { Container, Tabs, Tab } from "react-bootstrap";
 import { useState } from "react";
 import SimCardDownloadRoundedIcon from "@mui/icons-material/SimCardDownloadRounded";
@@ -22,26 +23,31 @@ export default function About() {
                 <div className={s.tabWrap}>
                   <h3 className={s.tabTitle}>My story</h3>
                   <div className={s.contentWrap}>
-                    <img
-                      className={s.img}
-                      src="vectorGraphic/mind-map-concept-illustration_114360-3933(1).webp"
-                      alt=""
-                    />
+                    <div className={s.img}>
+                      <Image
+                        src="/vectorGraphic/mind-map-concept-illustration_114360-3933(1).webp"
+                        alt=""
+                        width={1}
+                        height={1}
+                        layout="responsive"
+                      />
+                    </div>
                     <div className={s.contentText}>
                       <p>
-                        I started my path in frontend development when I was 17,
-                        in college. But then I had a long break and last year I
-                        made a decision to come back.{" "}
+                        I started my path in frontend development when I was
+                        17&#44; in college. But then I had a long break and last
+                        year I made a decision to come back.{" "}
                       </p>
                       <p>
-                        I'm interested in creating user friendly and nice
+                        I&#39;m interested in creating user friendly and nice
                         interfaces of web apps. Resolving different tasks makes
                         me satisfied with my work and motivates me to move on
                         and impove my skills.{" "}
                       </p>
                       <p>
-                        I'd like be a part of the team and apply my knowledge
-                        and skills, experience to archieve team goals.{" "}
+                        I&#39;d like be a part of the team and apply my
+                        knowledge and skills&#44; experience to archieve team
+                        goals.{" "}
                       </p>
                       <a
                         href="cv.pdf"
@@ -55,25 +61,29 @@ export default function About() {
                 </div>
               </Tab>
               <Tab eventKey="Education" title="Education">
-                <div className={s.tabWrap}>
+                <div className={[s.tabWrap, s.tabWrap3].join(" ")}>
                   <h3 className={s.tabTitle}>Education</h3>
-                  <div className={s.contentWrap}>
-                    <img
-                      className={s.img2}
-                      src="vectorGraphic/designer-girl-concept-illustration_114360-4455.webp"
-                      alt=""
-                    />
-                    <div className={s.contentText}>
+                  <div className={[s.contentWrap, s.contentWrap3].join(" ")}>
+                    <div className={s.img2}>
+                      <Image
+                        src="/vectorGraphic/designer-girl-concept-illustration_114360-4455.webp"
+                        alt=""
+                        width={1}
+                        height={1}
+                        layout="responsive"
+                      />
+                    </div>
+                    <div className={[s.contentText, s.contentText2].join(" ")}>
                       <h4 className={s.subTitle}>
-                        Full Stack developer | 2022
+                        Full Stack developer &#124; 2022
                       </h4>
-                      <p className={s.schoolName}>IT School "GoIT"</p>
-                      <h4 className={s.subTitle}>Web-design | 2014</h4>
+                      <p className={s.schoolName}>IT School &#34;GoIT&#34;</p>
+                      <h4 className={s.subTitle}>Web-design &#124; 2014</h4>
                       <p className={s.schoolName}>
-                        Training Center "Ukrainian Labor Exchange"
+                        Training Center &#34;Ukrainian Labor Exchange&#34;
                       </p>
                       <h4 className={s.subTitle}>
-                        Software development | 2014
+                        Software development &#124; 2014
                       </h4>
                       <p className={s.schoolName}>
                         College of Economics and Law of Zaporozhye National
@@ -89,31 +99,42 @@ export default function About() {
                   <div className={[s.contentWrap, s.contentWrap3].join(" ")}>
                     <h4 className={s.subTitle}>Lash Extension Specialist</h4>
                     <p className={s.schoolName}>
-                      2021 / 2022 - Beauty salon"Nude", Estonia
+                      2021 &#47; 2022 &#45; Beauty salon &#34;Nude&#34;, Estonia
                     </p>
                     <ul>
                       <li>
                         {" "}
                         developed strong and lasting relationships with clients
                         through consistent delivery of requested services and
-                        exceptional results;
+                        exceptional results&#59;
                       </li>
-                      <li> created content for the salon's social networks.</li>
+                      <li>
+                        {" "}
+                        created content for the salon&#39;s social networks.
+                      </li>
                     </ul>
-                    <img
-                      className={s.img3}
-                      src="vectorGraphic/email-campaign-concept-illustration_114360-3937(1).webp"
-                      alt=""
-                    />
+                    <div className={s.img3}>
+                      <Image
+                        src="/vectorGraphic/email-campaign-concept-illustration_114360-3937(1).webp"
+                        alt=""
+                        width={1}
+                        height={1}
+                        layout="responsive"
+                      />
+                    </div>
                     <h4 className={s.subTitle}>Entrepreneurship</h4>
                     <p className={s.schoolName}>
-                      2017 / 2021 - Beauty salon "Flox" co-founder, Ukraine
+                      2017 &#47; 2021 &#45; Beauty salon &#34;Flox&#34;
+                      co&#45;founder&#44; Ukraine
                     </p>
                     <ul>
-                      <li> organization of workplaces;</li>
-                      <li> election and internship training of employees;</li>
-                      <li> communication with clients;</li>
-                      <li> attraction of new clients;</li>
+                      <li> organization of workplaces&#59;</li>
+                      <li>
+                        {" "}
+                        election and internship training of employees&#58;
+                      </li>
+                      <li> communication with clients&#59;</li>
+                      <li> attraction of new clients&#59;</li>
                       <li>
                         {" "}
                         maintaining and creating content for social networks and

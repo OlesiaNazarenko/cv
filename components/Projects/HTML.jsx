@@ -20,7 +20,7 @@ export default function HTML() {
           </div>
         </div>
 
-        <h3>Landing page "WebStudio"</h3>
+        <h3>Landing page &#34;WebStudio&#34;</h3>
 
         <div className={s.linksWrap}>
           <a
@@ -54,7 +54,7 @@ export default function HTML() {
             <span className={s.infoSpan}>Parcel</span>
           </div>
         </div>
-        <h3>Landing page "Ice cream"</h3>
+        <h3>Landing page &#34;Ice cream&#34;</h3>
         <div className={s.linksWrap}>
           <a
             target="_blank"

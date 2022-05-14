@@ -8,7 +8,7 @@ export default function SoftSkills() {
       id="softSkills"
     >
       <Container>
-        <h2>Why hire me?</h2>
+        <h2>Why hire me&#63;</h2>
         <Row className="align-items-start">
           <Col>
             <div className={s.image}>
@@ -23,9 +23,10 @@ export default function SoftSkills() {
             </div>
             <h3>Responsible</h3>
             <p>
-              My co-workers often said I’m too serious about my work. But I
-              think it's good, it's an advantage. Because it makes me better as
-              a professional and I always try to do my best.
+              My co&#45;workers often said I&#39;m too serious about my work.
+              But I think it&#39;s good&#44; it&#39;s an advantage&#46; Because
+              it makes me better as a professional and I always try to do my
+              best&#46;
             </p>
           </Col>
           <Col>
@@ -42,9 +43,9 @@ export default function SoftSkills() {
             <h3>Team player</h3>
             <p>
               Being part of a team means you can contribute for the benefit of
-              all, and at the same time there are members who can support you
-              and share new knowledge with you. You can achieve much more
-              success together as a team than alone.
+              all&#44; and at the same time there are members who can support
+              you and share new knowledge with you&#46; You can achieve much
+              more success together as a team than alone&#46;
             </p>
           </Col>
           <Col>
@@ -58,12 +59,12 @@ export default function SoftSkills() {
                 layout="responsive"
               />
             </div>
-            <h3>Self-management</h3>
+            <h3>Self&#45;management</h3>
             <p>
               {" "}
               I enjoy being a lifetime learner and always seeking to improve
-              myself. Curious about new possibilities and taking action to
-              explore them.
+              myself&#46; Curious about new possibilities and taking action to
+              explore them&#46;
             </p>
           </Col>
           <Col>
@@ -77,12 +78,12 @@ export default function SoftSkills() {
                 layout="responsive"
               />
             </div>
-            <h3>Open-mind</h3>
+            <h3>Open&#45;mind</h3>
             <p>
               It is so important to be able to step out of your comfort zone and
-              consider other ideas and perspectives, especially in this day and
-              age. I'm willing to listen to other people, their suggestions, and
-              opinions.
+              consider other ideas and perspectives&#44; especially in this day
+              and age&#46; I&#39;m willing to listen to other people&#44; their
+              suggestions&#44; and opinions&#46;
             </p>
           </Col>
         </Row>

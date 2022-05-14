@@ -14,18 +14,18 @@ export default function Next() {
               layout="responsive"
             />
             <div className={s.info}>
-              <span className={s.infoSpan}>Next.js</span>
+              <span className={s.infoSpan}>Next&#46; js</span>
               <span className={s.infoSpan}>CSS Modules</span>
               <span className={s.infoSpan}>JS</span>
               <span className={s.infoSpan}>Firebase</span>
               <span className={s.infoSpan}>Google Maps API</span>
               <span className={s.infoSpan}>Swiper</span>
               <span className={s.infoSpan}>Material UI</span>
-              <span className={s.infoSpan}>React-spring</span>
+              <span className={s.infoSpan}>React&#45; spring</span>
             </div>
           </div>
 
-          <h3>"Kompromix" - website for a construction company</h3>
+          <h3>&#34;Kompromix&#34; &#45; website for a construction company</h3>
 
           <div className={s.linksWrap}>
             <a
@@ -53,7 +53,7 @@ export default function Next() {
               layout="responsive"
             />
             <div className={s.info}>
-              <span className={s.infoSpan}>Next.js</span>
+              <span className={s.infoSpan}>Next&#46;js</span>
               <span className={s.infoSpan}>CSS Modules</span>
               <span className={s.infoSpan}>Bootstrap</span>
               <span className={s.infoSpan}>Emailjs</span>

@@ -49,12 +49,12 @@ export default function EmailModal({ onHide, show }) {
       <Modal show={show} onHide={onHide}>
         <Modal.Header closeButton>
           <Modal.Title>
-            Let’s get in touch <span className={s.mainIcon}> &#9993; </span>
+            Let&#39;s get in touch <span className={s.mainIcon}> &#9993; </span>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <form ref={form} onSubmit={sendEmail} autoComplete="off">
-            <label className="form-label">Name*</label>
+            <label className="form-label">Name&#42;</label>
             <input
               type="text"
               className="form-control"
@@ -65,7 +65,7 @@ export default function EmailModal({ onHide, show }) {
               }}
               required
             />
-            <label className="form-label">Email*</label>
+            <label className="form-label">Email&#42;</label>
             <input
               type="email"
               className="form-control"
@@ -73,7 +73,7 @@ export default function EmailModal({ onHide, show }) {
               required
               minLength={6}
             />
-            <label className="form-label">Message*</label>
+            <label className="form-label">Message&#42;</label>
             <textarea className="form-control" name="message" required />
             <div className={s.btnWrap}>
               <input

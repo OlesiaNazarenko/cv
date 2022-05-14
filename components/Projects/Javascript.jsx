@@ -23,10 +23,10 @@ export default function JavaScript() {
               <span className={s.infoSpan}>Handlebars</span>
               <span className={s.infoSpan}>basiclightbox</span>
               <span className={s.infoSpan}>notiflix</span>
-              <span className={s.infoSpan}>tui-pagination</span>
+              <span className={s.infoSpan}>tui&#45;pagination</span>
             </div>
           </div>
-          <h3>"Movie libriary" team project</h3>
+          <h3>&#34;Movie libriary&#34; team project</h3>
           <div className={s.linksWrap}>
             <a
               target="_blank"
@@ -58,7 +58,7 @@ export default function JavaScript() {
               <span className={s.infoSpan}>JS</span>
             </div>
           </div>
-          <h3>2 apps: Countdown and Stopwatch based on Date.object</h3>
+          <h3>2 apps&#58; Countdown and Stopwatch based on Date Object</h3>
           <div className={s.linksWrap}>
             <a
               target="_blank"
@@ -131,7 +131,7 @@ export default function JavaScript() {
               <span className={s.infoSpan}>Handlebars</span>
             </div>
           </div>
-          <h3>Search by country app based on restcountries.com</h3>
+          <h3>Search by country app based on restcountries&#46;com</h3>
           <div className={s.linksWrap}>
             <a
               target="_blank"

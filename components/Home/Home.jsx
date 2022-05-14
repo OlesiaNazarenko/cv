@@ -63,12 +63,12 @@ export default function Home() {
             <Col>
               {" "}
               <div className={s.rightBox}>
-                <h1>Hello!</h1>
+                <h1>Hello&#33;</h1>
                 <p>
-                  I'm passionate about bringing mock-ups to life using HTML,
-                  CSS, JavaScript, React JS, Next.js.
+                  I&#39;m passionate about bringing mock-ups to life using
+                  HTML&#44; CSS&#44; JavaScript&#44; React JS&#44; Next.js&#46;
                 </p>
-                <p>Let's make something special.</p>
+                <p>Let&#39;s make something special&#46;</p>
                 <div className={s.btnWrap}>
                   <Button
                     variant="light"

@@ -49,11 +49,11 @@ export default function ContactForm() {
     >
       <Container>
         <div className={s.contactForm}>
-          <h2> Let's get in touch</h2>
+          <h2> Let&#39;s get in touch</h2>
           <p>
-            Interested in hiring me for your project? You can fill in the
+            Interested in hiring me for your project&#63; You can fill in the
             contact form below or send me an email to{" "}
-            <b>olesianazarenko.dev@gmail.com</b>
+            <b>olesianazarenko&#46;dev&#64;gmail&#46;com</b>
           </p>
 
           <form
@@ -62,7 +62,7 @@ export default function ContactForm() {
             autoComplete="off"
             className={s.form}
           >
-            <label className="form-label">Name*</label>
+            <label className="form-label">Name&#42;</label>
             <input
               type="text"
               className="form-control"
@@ -73,7 +73,7 @@ export default function ContactForm() {
               }}
               required
             />
-            <label className="form-label">Email*</label>
+            <label className="form-label">Email&#42;</label>
             <input
               type="email"
               className="form-control"
@@ -81,7 +81,7 @@ export default function ContactForm() {
               required
               minLength={6}
             />
-            <label className="form-label">Message*</label>
+            <label className="form-label">Message&#42;</label>
             <textarea className="form-control" name="message" required />
 
             <input type="submit" className="btn-success btn" value="Send" />

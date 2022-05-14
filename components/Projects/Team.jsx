@@ -20,7 +20,7 @@ export default function Team() {
               <span className={s.infoSpan}>Parcel</span>
             </div>
           </div>
-          <h3>Landing page "Ice cream"</h3>
+          <h3>Landing page &#34;Ice cream&#34;</h3>
           <div className={s.linksWrap}>
             <a
               target="_blank"
@@ -56,10 +56,10 @@ export default function Team() {
               <span className={s.infoSpan}>Handlebars</span>
               <span className={s.infoSpan}>basiclightbox</span>
               <span className={s.infoSpan}>notiflix</span>
-              <span className={s.infoSpan}>tui-pagination</span>
+              <span className={s.infoSpan}>tui&#45;pagination</span>
             </div>
           </div>
-          <h3>"Movie libriary" team project</h3>
+          <h3>&#34;Movie libriary&#34; team project</h3>
           <div className={s.linksWrap}>
             <a
               target="_blank"
@@ -94,18 +94,18 @@ export default function Team() {
               <span className={s.infoSpan}>axios</span>
               <span className={s.infoSpan}>Redux</span>
               <span className={s.infoSpan}>React Router v6</span>
-              <span className={s.infoSpan}>React-Toastify</span>
+              <span className={s.infoSpan}>React&#45;Toastify</span>
               <span className={s.infoSpan}>Netlify</span>
               <span className={s.infoSpan}>Formik</span>
               <span className={s.infoSpan}>i18next</span>
-              <span className={s.infoSpan}>React-media</span>
-              <span className={s.infoSpan}>React-transition-group</span>
-              <span className={s.infoSpan}>Node.js</span>
+              <span className={s.infoSpan}>React&#45;media</span>
+              <span className={s.infoSpan}>React&#45;transition&#45;group</span>
+              <span className={s.infoSpan}>Node&#46;js</span>
               <span className={s.infoSpan}>MongoDB</span>
               <span className={s.infoSpan}>Postman</span>
             </div>
           </div>
-          <h3>"Wallet" app, fullstack team project</h3>
+          <h3>&#34;Wallet&#34; app&#44; fullstack team project</h3>
           <div className={s.linksWrap}>
             <a
               target="_blank"

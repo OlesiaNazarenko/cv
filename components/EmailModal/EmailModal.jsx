@@ -17,10 +17,10 @@ export default function EmailModal({ onHide, show }) {
 
     emailjs
       .sendForm(
-        "service_r1dzrf9",
-        "template_u5osip8",
+        process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID,
         form.current,
-        "HQ0RXguxj31Iom4Pv"
+        process.env.NEXT_PUBLIC_EMAIL_PUBLIC_KEY
       )
       .then(
         (result) => {

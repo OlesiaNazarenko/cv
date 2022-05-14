@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Notify } from "notiflix";
+
 export default function ContactForm() {
   const form = useRef();
   const [userName, setUserName] = useState();
@@ -15,10 +16,10 @@ export default function ContactForm() {
 
     emailjs
       .sendForm(
-        "service_r1dzrf9",
-        "template_u5osip8",
+        process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID,
         form.current,
-        "HQ0RXguxj31Iom4Pv"
+        process.env.NEXT_PUBLIC_EMAIL_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -39,7 +40,6 @@ export default function ContactForm() {
         }
       );
 
-    onHide();
     e.target.reset();
   };
   return (

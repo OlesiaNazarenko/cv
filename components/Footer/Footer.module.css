@@ -36,7 +36,7 @@
 }
 .topIcon {
   transform: rotate(180deg);
-  font-size: 40px;
+  font-size: 40px !important;
 }
 .footerSection .logoLink {
   font-family: Koulen;

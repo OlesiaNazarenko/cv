@@ -6,7 +6,7 @@ export default function HTML() {
   useEffect(() => {
     const res = projectsData.htmlProjects;
     setData(res);
-  }, [projectsData]);
+  }, []);
 
   return <ProjectCard data={data} />;
 }

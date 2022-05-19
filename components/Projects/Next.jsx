@@ -6,6 +6,6 @@ export default function Next() {
   useEffect(() => {
     const res = projectsData.nextProjects;
     setData(res);
-  }, [projectsData]);
+  }, []);
   return <ProjectCard data={data} />;
 }

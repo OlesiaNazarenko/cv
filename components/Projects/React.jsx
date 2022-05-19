@@ -6,6 +6,6 @@ export default function ReactJS() {
   useEffect(() => {
     const res = projectsData.reactProjects;
     setData(res);
-  }, [projectsData]);
+  }, []);
   return <ProjectCard data={data} />;
 }

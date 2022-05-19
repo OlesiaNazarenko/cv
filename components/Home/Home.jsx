@@ -38,7 +38,7 @@ export default function Home() {
                 </animated.div>
                 <animated.div style={props}>
                   <h2 className={s.title}>Olesia Nazarenko</h2>
-                  <h3 className={s.h2}>Frontend developer</h3>
+                  <h3 className={s.h2}>Front end developer</h3>
                 </animated.div>
                 <div className={s.linksWrap}>
                   <animated.div style={props}>
@@ -81,8 +81,8 @@ export default function Home() {
                 <h1>Hello&#33; I&#39;m Olesia Nazarenko&#46;</h1>
                 <p>
                   I started learning frontend development due to my passion to
-                  make things beautiful and customers happy&#46; I've done a
-                  deep dive into web-development using HTML&#44; CSS&#44;
+                  make things beautiful and customers happy&#46; I&#39;ve done a
+                  deep dive into web&#45;development using HTML&#44; CSS&#44;
                   JavaScript&#44; React JS&#44; Next&#46;js&#44; and ready for
                   the next adventure&#46;
                 </p>

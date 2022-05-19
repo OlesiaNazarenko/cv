@@ -6,6 +6,6 @@ export default function Team() {
   useEffect(() => {
     const res = projectsData.teamProjects;
     setData(res);
-  }, [projectsData]);
+  }, []);
   return <ProjectCard data={data} />;
 }

@@ -78,7 +78,7 @@
     [
       {
         "title": "\"Wallet\" app, fullstack team project",
-        "image": "/projects/imageGallery.jpg",
+        "image": "/projects/wallet.png",
         "descTitle": "App allows user to add transactions, get access to the current exchange rate and transactions statistic. Before user gets access to the app, it is nessesary to sign up",
         "descTasks": " My tasks: markup and functionality of Header, Nav, Add  transaction and Logout modals, Loader components, routing, localization and animation of the App,  writting README.",
         "descStack": "I used React JS, Redux, NPM (i18next, axios, formik, yup, react-toastify, react-transition-group, react-router v6).",
@@ -175,7 +175,7 @@
     [
       {
         "title": "\"Wallet\" app, fullstack team project",
-        "image": "/projects/imageGallery.jpg",
+        "image": "/projects/wallet.png",
         "descTitle": "App allows user to add transactions, get access to the current exchange rate and transactions statistic. Before user gets access to the app, it is nessesary to sign up",
         "descTasks": " My tasks: markup and functionality of Header, Nav, Add  transaction and Logout modals, Loader components, routing, localization and animation of the App,  writting README.",
         "descStack": "I used React JS, Redux, NPM (i18next, axios, formik, yup, react-toastify, react-transition-group, react-router v6).",

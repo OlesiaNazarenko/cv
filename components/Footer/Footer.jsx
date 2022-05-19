@@ -11,20 +11,21 @@ export default function Footer() {
       className={[s.footerSection, "footerSection"].join(" ")}
       id="footer"
     >
-      <Nav.Link href="#header" className={s.topLink}>
+      <Nav.Link href="#home" className={s.topLink}>
         <ArrowDropDownCircleIcon className={s.topIcon} />
       </Nav.Link>
       <Container>
         <Row className={s.row}>
           <Col className={s.col}>
             {" "}
-            <Nav.Link href="#header" className={s.logoLink}>
+            <Nav.Link href="#home" className={s.logoLink}>
               Olesia Nazarenko
             </Nav.Link>
           </Col>
           <Col className={s.col}>
-            {" "}
-            <Nav.Link href="#about">About me</Nav.Link>
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#projects">Skills</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
           </Col>
           <Col className={s.col}>

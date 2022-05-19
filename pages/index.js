@@ -6,6 +6,7 @@ import Projects from "../components/Projects";
 import About from "../components/About/About";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
+
 export default function HomePage() {
   return (
     <>
@@ -19,9 +20,13 @@ export default function HomePage() {
       </header>
       <main>
         <Home />
+
         <About />
+
         <SoftSkills />
+
         <Projects />
+
         <ContactForm />
       </main>
 

@@ -6,12 +6,15 @@ import ReactJS from "./React";
 import Next from "./Next";
 import Team from "./Team";
 import s from "./Projects.module.css";
+import { useSpring, animated } from "react-spring";
 
 export default function Projects() {
   const [key, setKey] = useState("HTML/CSS");
-
+  const styles = useSpring({
+    to: [{ opacity: 1, color: "red" }],
+  });
   return (
-    <section
+    <animated.section
       className={[s.projectsSection, "projectSection"].join(" ")}
       id="projects"
     >
@@ -50,6 +53,6 @@ export default function Projects() {
           </Tab>
         </Tabs>
       </Container>
-    </section>
+    </animated.section>
   );
 }

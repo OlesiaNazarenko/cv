@@ -33,6 +33,15 @@
   box-shadow: none;
   outline: transparent;
 }
+.mailLink {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+.mailLink:hover,
+.mailLink:focus,
+.mailLink:active {
+  color: var(--gold-color);
+}
 @media screen and (min-width: 468px) {
   .contactForm {
     width: 70%;

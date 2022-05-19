@@ -21,7 +21,7 @@ export default function About() {
             >
               <Tab eventKey="My story" title="My story">
                 <div className={s.tabWrap}>
-                  <h3 className={s.tabTitle}>My story</h3>
+                  {/* <h3 className={s.tabTitle}>My story</h3> */}
                   <div className={s.contentWrap}>
                     <div className={s.img}>
                       <Image
@@ -61,9 +61,9 @@ export default function About() {
                 </div>
               </Tab>
               <Tab eventKey="Education" title="Education">
-                <div className={[s.tabWrap, s.tabWrap3].join(" ")}>
-                  <h3 className={s.tabTitle}>Education</h3>
-                  <div className={[s.contentWrap, s.contentWrap3].join(" ")}>
+                <div className={s.tabWrap}>
+                  {/* <h3 className={s.tabTitle}>Education</h3> */}
+                  <div className={s.contentWrap}>
                     <div className={s.img2}>
                       <Image
                         src="/vectorGraphic/designer-girl-concept-illustration_114360-4455.webp"
@@ -73,7 +73,7 @@ export default function About() {
                         layout="responsive"
                       />
                     </div>
-                    <div className={[s.contentText, s.contentText2].join(" ")}>
+                    <div className={s.contentText}>
                       <h4 className={s.subTitle}>
                         Full Stack developer &#124; 2022
                       </h4>
@@ -93,26 +93,10 @@ export default function About() {
                   </div>
                 </div>
               </Tab>
-              <Tab eventKey="Experience" title="Experience">
+              <Tab eventKey="Experience" title="Work experience">
                 <div className={[s.tabWrap, s.tabWrap3].join(" ")}>
-                  <h3 className={s.tabTitle}>Work experience</h3>
-                  <div className={[s.contentWrap, s.contentWrap3].join(" ")}>
-                    <h4 className={s.subTitle}>Lash Extension Specialist</h4>
-                    <p className={s.schoolName}>
-                      2021 &#47; 2022 &#45; Beauty salon &#34;Nude&#34;, Estonia
-                    </p>
-                    <ul>
-                      <li>
-                        {" "}
-                        developed strong and lasting relationships with clients
-                        through consistent delivery of requested services and
-                        exceptional results&#59;
-                      </li>
-                      <li>
-                        {" "}
-                        created content for the salon&#39;s social networks.
-                      </li>
-                    </ul>
+                  {/* <h3 className={s.tabTitle}>Work experience</h3> */}
+                  <div className={s.contentWrap}>
                     <div className={s.img3}>
                       <Image
                         src="/vectorGraphic/email-campaign-concept-illustration_114360-3937(1).webp"
@@ -122,25 +106,45 @@ export default function About() {
                         layout="responsive"
                       />
                     </div>
-                    <h4 className={s.subTitle}>Entrepreneurship</h4>
-                    <p className={s.schoolName}>
-                      2017 &#47; 2021 &#45; Beauty salon &#34;Flox&#34;
-                      co&#45;founder&#44; Ukraine
-                    </p>
-                    <ul>
-                      <li> organization of workplaces&#59;</li>
-                      <li>
-                        {" "}
-                        election and internship training of employees&#58;
-                      </li>
-                      <li> communication with clients&#59;</li>
-                      <li> attraction of new clients&#59;</li>
-                      <li>
-                        {" "}
-                        maintaining and creating content for social networks and
-                        advertising.
-                      </li>
-                    </ul>
+                    <div className={s.contentText}>
+                      <h4 className={s.subTitle}>Lash Extension Specialist</h4>
+                      <p className={s.schoolName}>
+                        2021 &#47; 2022 &#45; Beauty salon &#34;Nude&#34;,
+                        Estonia
+                      </p>
+                      <ul>
+                        <li>
+                          {" "}
+                          developed strong and lasting relationships with
+                          clients through consistent delivery of requested
+                          services and exceptional results&#59;
+                        </li>
+                        <li>
+                          {" "}
+                          created content for the salon&#39;s social networks.
+                        </li>
+                      </ul>
+
+                      <h4 className={s.subTitle}>Entrepreneurship</h4>
+                      <p className={s.schoolName}>
+                        2017 &#47; 2021 &#45; Beauty salon &#34;Flox&#34;
+                        co&#45;founder&#44; Ukraine
+                      </p>
+                      <ul>
+                        <li> organization of workplaces&#59;</li>
+                        <li>
+                          {" "}
+                          election and internship training of employees&#58;
+                        </li>
+                        <li> communication with clients&#59;</li>
+                        <li> attraction of new clients&#59;</li>
+                        <li>
+                          {" "}
+                          maintaining and creating content for social networks
+                          and advertising.
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </Tab>

@@ -25,17 +25,17 @@ export default function ContactForm() {
         (result) => {
           console.log(result.text);
           Notify.success(successMsg, {
-            closeButton: true,
             clickToClose: true,
+            timeout: 4000,
           });
         },
         (error) => {
           console.log(error.text);
           Notify.warning(errorMsg, {
             closeButton: true,
-            clickToClose: true,
             useFontAwesome: false,
             useIcon: false,
+            timeout: 4000,
           });
         }
       );
@@ -51,9 +51,16 @@ export default function ContactForm() {
         <div className={s.contactForm}>
           <h2> Let&#39;s get in touch</h2>
           <p>
-            Interested in hiring me for your project&#63; You can fill in the
-            contact form below or send me an email to{" "}
-            <b>olesianazarenko&#46;dev&#64;gmail&#46;com</b>
+            Interested in hiring me&#63; You can fill in the contact form below
+            or send me an email to{" "}
+            <b>
+              <a
+                className={s.mailLink}
+                href="mailto:olesianazarenko.dev@gmail.com"
+              >
+                olesianazarenko&#46;dev&#64;gmail&#46;com
+              </a>
+            </b>
           </p>
 
           <form

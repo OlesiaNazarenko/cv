@@ -8,7 +8,7 @@ export default function SoftSkills() {
       id="softSkills"
     >
       <Container>
-        <h2>Why hire me&#63;</h2>
+        <h2>Why should you hire me&#63;</h2>
         <Row className="align-items-start">
           <Col>
             <div className={s.image}>

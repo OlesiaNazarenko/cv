@@ -1,0 +1,208 @@
+{
+  "htmlProjects": [
+    [
+      {
+        "title": "Landing page \"WebStudio\"",
+        "image": "/projects/webstudio.jpg",
+        "techList": ["HTML", "SASS", "Figma", "Parcel"],
+        "linkDemo": "https://olesianazarenko.github.io/goit-markup-hw-08/",
+        "linkGitHub": "https://github.com/OlesiaNazarenko/goit-markup-hw-08"
+      },
+      {
+        "title": "Landing page \"Ice cream\"",
+        "image": "/projects/icecream.jpg",
+        "descTitle": "Team development of landing page.",
+        "descTasks": "My tasks: preparing base common styles, Header and Hero sections, modal windows, code review.",
+        "descStack": "I used HTML, SASS, Figma, Parcel.",
+        "linkDemo": "https://byshov92.github.io/ice-cream-creativity-proj/",
+        "linkGitHub": "https://github.com/Byshov92/ice-cream-creativity-proj"
+      }
+    ]
+  ],
+  "jsProjects": [
+    [
+      {
+        "title": "\"Movie libriary\" team project",
+        "image": "/projects/filmoteka.jpg",
+        "descTitle": "Team development of movie library with ability to search a film,  watch a trailer, add and remove it from your own              library.",
+        "descTasks": "My tasks: modal window with additional information about film, ability to watch the trailer, adding and removing a movie to/from personal library.",
+        "descStack": "I used HTML, SASS, JS, templating (Handlebars), NPM( axios, basicLightbox, Notiflix).",
+        "linkDemo": "https://hrendzha.github.io/filmoteka/",
+        "linkGitHub": "https://github.com/hrendzha/filmoteka"
+      },
+      {
+        "title": "Countdown and Stopwatch",
+        "image": "/projects/stopwatch.jpg",
+        "descTitle": "2 apps: Countdown and Stopwatch based on Date Object.",
+        "techList": ["HTML", "SASS", "JS"],
+        "linkDemo": "https://olesianazarenko.github.io/goit-js-hw-11-timer/",
+        "linkGitHub": "https://github.com/OlesiaNazarenko/goit-js-hw-11-timer"
+      }
+    ],
+
+    [
+      {
+        "title": "Theme switcher",
+        "image": "/projects/themeSwitcher.jpg",
+        "techList": [
+          "HTML",
+          "SASS",
+          "JS",
+          "Parcel",
+          "Handlebars",
+          "LocalStorage"
+        ],
+        "linkDemo": "https://olesianazarenko.github.io/goit-js-hw-10-food-service/",
+        "linkGitHub": "https://github.com/OlesiaNazarenko/goit-js-hw-10-food-service"
+      },
+      {
+        "title": "Image search",
+        "image": "/projects/imageFinderIO.jpg",
+        "techList": [
+          "HTML",
+          "SASS",
+          "JS",
+          "Parcel",
+          "Handlebars",
+          "IntersectionObserver",
+          "REST API",
+          "pnotify",
+          "basiclightbox"
+        ],
+        "linkDemo": "https://olesianazarenko.github.io/goit-js-hw-13-image-finderIO/",
+        "linkGitHub": "https://github.com/OlesiaNazarenko/goit-js-hw-13-image-finderIO"
+      }
+    ]
+  ],
+  "reactProjects": [
+    [
+      {
+        "title": "\"Wallet\" app, fullstack team project",
+        "image": "/projects/imageGallery.jpg",
+        "descTitle": "App allows user to add transactions, get access to the current exchange rate and transactions statistic. Before user gets access to the app, it is nessesary to sign up",
+        "descTasks": " My tasks: markup and functionality of Header, Nav, Add  transaction and Logout modals, Loader components, routing, localization and animation of the App,  writting README.",
+        "descStack": "I used React JS, Redux, NPM (i18next, axios, formik, yup, react-toastify, react-transition-group, react-router v6).",
+        "linkDemo": "https://kdv-wallet-project.netlify.app/",
+        "linkGitHub": "https://github.com/DenisK0s/dementors-wallet-project"
+      },
+      {
+        "title": "\"Phonebook\" app",
+        "image": "/projects/phonebook.jpg",
+        "techList": [
+          "React JS",
+          "CSS Modules",
+          "REST API",
+          "axios",
+          "Redux",
+          "React Router v6",
+          "React-Toastify",
+          "Framer Motion",
+          "Netlify"
+        ],
+        "linkDemo": "https://phonebook-on.netlify.app/",
+        "linkGitHub": "https://github.com/OlesiaNazarenko/goit-react-hw-08-phonebook"
+      }
+    ],
+
+    [
+      {
+        "title": "Image gallery",
+        "image": "/projects/imageGallery.jpg",
+        "techList": [
+          "React JS",
+          "CSS Modules",
+          "REST API",
+          "axios",
+          "React-Toastify"
+        ],
+        "linkDemo": "https://olesianazarenko.github.io/goit-react-hw-04-hooks-images/",
+        "linkGitHub": "https://github.com/OlesiaNazarenko/goit-react-hw-04-hooks-images"
+      },
+      {
+        "title": "Movie search app",
+        "image": "/projects/movies.jpg",
+        "techList": [
+          "React JS",
+          "CSS Modules",
+          "REST API",
+          "axios",
+          "React Router v6",
+          "React-Toastify",
+          "Netlify"
+        ],
+        "linkDemo": "https://on-movies.netlify.app/",
+        "linkGitHub": "https://github.com/OlesiaNazarenko/goit-react-hw-05-movies"
+      }
+    ]
+  ],
+  "nextProjects": [
+    [
+      {
+        "title": "\"Kompromix\" app",
+        "image": "/projects/kompromix.jpg",
+        "descTitle": "Website for a construction company",
+        "techList": [
+          "Next.js",
+          "CSS Modules",
+          "Firebase",
+          "Firestore",
+          "Google Maps API",
+          "Swiper",
+          "Material UI",
+          "React spring"
+        ],
+        "linkDemo": "https://kompromix.netlify.app/",
+        "linkGitHub": "https://github.com/OlesiaNazarenko/kompromix"
+      },
+      {
+        "title": "Portfolio",
+        "image": "/projects/portfolio.jpg",
+        "techList": [
+          "Next.js",
+          "CSS Modules",
+          "Bootstrap",
+          "Emailjs",
+          "notiflix",
+          "Material icons",
+          "React spring"
+        ],
+        "linkDemo": "https://cv-olesianazarenko.vercel.app/",
+        "linkGitHub": "https://github.com/OlesiaNazarenko/cv"
+      }
+    ]
+  ],
+  "teamProjects": [
+    [
+      {
+        "title": "\"Wallet\" app, fullstack team project",
+        "image": "/projects/imageGallery.jpg",
+        "descTitle": "App allows user to add transactions, get access to the current exchange rate and transactions statistic. Before user gets access to the app, it is nessesary to sign up",
+        "descTasks": " My tasks: markup and functionality of Header, Nav, Add  transaction and Logout modals, Loader components, routing, localization and animation of the App,  writting README.",
+        "descStack": "I used React JS, Redux, NPM (i18next, axios, formik, yup, react-toastify, react-transition-group, react-router v6).",
+        "linkDemo": "https://kdv-wallet-project.netlify.app/",
+        "linkGitHub": "https://github.com/DenisK0s/dementors-wallet-project"
+      },
+      {
+        "title": "\"Movie libriary\" team project",
+        "image": "/projects/filmoteka.jpg",
+        "descTitle": "Team development of movie library with ability to search a film,  watch a trailer, add and remove it from your own              library.",
+        "descTasks": "My tasks: modal window with additional information about film, ability to watch the trailer, adding and removing a movie to/from personal library.",
+        "descStack": "I used HTML, SASS, JS, templating (Handlebars), NPM( axios, basicLightbox, Notiflix).",
+        "linkDemo": "https://hrendzha.github.io/filmoteka/",
+        "linkGitHub": "https://github.com/hrendzha/filmoteka"
+      }
+    ],
+
+    [
+      {
+        "title": "Landing page \"Ice cream\"",
+        "image": "/projects/icecream.jpg",
+        "descTitle": "Team development of landing page.",
+        "descTasks": "My tasks: preparing base common styles, Header and Hero sections, modal windows, code review.",
+        "descStack": "I used HTML, SASS, Figma, Parcel.",
+        "linkDemo": "https://byshov92.github.io/ice-cream-creativity-proj/",
+        "linkGitHub": "https://github.com/Byshov92/ice-cream-creativity-proj"
+      }
+    ]
+  ]
+}

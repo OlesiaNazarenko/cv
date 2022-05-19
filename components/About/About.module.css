@@ -55,15 +55,15 @@
 }
 
 .contentText {
-  margin-top: 10px;
+  margin: auto 0;
 }
 .tabWrap p {
   font-size: 14px;
 }
 .tabWrap ul {
-  margin: 0;
+  margin: -10px 0 25px 0;
   font-size: 14px;
-  font-family: JostRegular;
+  font-family: JostLight;
 }
 
 .img,
@@ -74,7 +74,6 @@
   filter: saturate(120%);
 }
 .img2 {
-  margin: auto;
   filter: grayscale(45%) contrast(115%);
 }
 
@@ -100,10 +99,7 @@
   box-shadow: none;
   outline: transparent;
 }
-.contentText2 {
-  margin: auto;
-  text-align: center;
-}
+
 @media screen and (min-width: 480px) {
   .img3 {
     width: 90%;
@@ -115,30 +111,37 @@
     align-items: flex-start;
   }
   .tabWrap3 {
-    width: 70%;
+    width: 100%;
+  }
+  .img {
+    margin-top: -15px;
+    width: 115%;
+  }
+  .img2 {
+    width: 40%;
+  }
+  .img3 {
+    margin: auto 0;
   }
 }
-.contentWrap3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.tabWrap3 .contentWrap3:nth-child(2) {
-  align-items: flex-start;
-}
+
 @media screen and (min-width: 1000px) {
   .tabWrap {
     width: 70%;
   }
   .tabWrap3 {
-    width: 60%;
+    width: 90%;
   }
-  .img2 {
-    width: 60%;
+
+  .img {
+    width: 120%;
   }
 }
 @media screen and (min-width: 1200px) {
   .img {
-    width: 80%;
+    width: 90%;
+  }
+  .tabWrap3 {
+    width: 70%;
   }
 }

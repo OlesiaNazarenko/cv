@@ -1,10 +1,8 @@
 .softSkillsSection {
   width: 100%;
-  text-align: center;
   padding: 40px 0;
   margin: 40px 0;
-  /* border-top: 1px solid #dee2e6;
-  border-bottom: 1px solid #dee2e6; */
+  text-align: center;
 }
 .image {
   margin-bottom: 10px;
@@ -12,4 +10,11 @@
 }
 .softSkillsSection h3 {
   font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .softSkillsSection p {
+    padding: 0 10px;
+    text-align: justify;
+  }
 }

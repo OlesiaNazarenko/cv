@@ -149,7 +149,8 @@
           "Google Maps API",
           "Swiper",
           "Material UI",
-          "React spring"
+          "React spring",
+          "Netlify"
         ],
         "linkDemo": "https://kompromix.netlify.app/",
         "linkGitHub": "https://github.com/OlesiaNazarenko/kompromix"
@@ -164,7 +165,8 @@
           "Emailjs",
           "notiflix",
           "Material icons",
-          "React spring"
+          "React spring",
+          "Vercel"
         ],
         "linkDemo": "https://cv-olesianazarenko.vercel.app/",
         "linkGitHub": "https://github.com/OlesiaNazarenko/cv"

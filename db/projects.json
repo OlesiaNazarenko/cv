@@ -77,7 +77,7 @@
   "reactProjects": [
     [
       {
-        "title": "\"Wallet\" app, fullstack team project",
+        "title": "\"Wallet\" team project",
         "image": "/projects/wallet.png",
         "descTitle": "App allows user to add transactions, get access to the current exchange rate and transactions statistic. Before user gets access to the app, it is nessesary to sign up",
         "descTasks": " My tasks: markup and functionality of Header, Nav, Add  transaction and Logout modals, Loader components, routing, localization and animation of the App,  writting README.",
@@ -176,7 +176,7 @@
   "teamProjects": [
     [
       {
-        "title": "\"Wallet\" app, fullstack team project",
+        "title": "\"Wallet\" team project",
         "image": "/projects/wallet.png",
         "descTitle": "App allows user to add transactions, get access to the current exchange rate and transactions statistic. Before user gets access to the app, it is nessesary to sign up",
         "descTasks": " My tasks: markup and functionality of Header, Nav, Add  transaction and Logout modals, Loader components, routing, localization and animation of the App,  writting README.",

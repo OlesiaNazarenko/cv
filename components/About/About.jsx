@@ -34,7 +34,7 @@ export default function About() {
                     </div>
                     <div className={s.contentText}>
                       <p>
-                        I started my path in frontend development when I was
+                        I started my path in front end development when I was
                         17&#44; in college. But then I had a long break and last
                         year I made a decision to come back.{" "}
                       </p>

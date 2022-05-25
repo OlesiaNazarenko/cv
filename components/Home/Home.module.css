@@ -39,7 +39,7 @@
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-.downloadCvBtn {
+.btnWrap .downloadCvBtn {
   color: var(--main-bg-color);
   background-color: var(--gold-color);
   border: var(--gold-color);
@@ -47,13 +47,13 @@
   width: fit-content;
   align-items: center;
 }
-.downloadIcon {
+.btnWrap .downloadIcon {
   font-size: 18px;
   margin-top: 3px;
 }
-.downloadCvBtn:hover,
-.downloadCvBtn:focus,
-.downloadCvBtn:active {
+.btnWrap .downloadCvBtn:hover,
+.btnWrap .downloadCvBtn:focus,
+.btnWrap .downloadCvBtn:active {
   color: var(--main-bg-color);
   border-color: var(--light-nude-color);
   background-color: var(--light-nude-color);

@@ -22,7 +22,7 @@ export default function Home() {
   });
   return (
     <>
-      <section className={s.aboutWrap}>
+      <section className={s.aboutWrap} id="home">
         <Container>
           <Row>
             <Col>

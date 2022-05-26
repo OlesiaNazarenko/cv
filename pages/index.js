@@ -21,7 +21,7 @@ export default function HomePage() {
       <main>
         <Home />
         <Fade bottom>
-          <About />
+          <About id="#about" />
         </Fade>
         <Fade bottom>
           <SoftSkills />

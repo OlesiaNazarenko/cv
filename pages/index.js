@@ -6,8 +6,16 @@ import Projects from "../components/Projects";
 import About from "../components/About/About";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
-import Fade from "react-reveal";
+import Fade from "react-reveal/Fade";
+import { useEffect, useState } from "react";
+
 export default function HomePage() {
+  const [windowWidth, setWindowWidth] = useState(0);
+  useEffect(() => {
+    setWindowWidth(window.innerWidth);
+    console.log(window);
+  });
+
   return (
     <>
       <Head>
@@ -20,18 +28,30 @@ export default function HomePage() {
       </header>
       <main>
         <Home />
-        <Fade>
-          <About />
-        </Fade>
-        <Fade>
-          <SoftSkills />
-        </Fade>
-        <Fade>
-          <Projects />
-        </Fade>
-        <Fade>
-          <ContactForm />
-        </Fade>
+        {windowWidth < 768 && (
+          <>
+            <About />
+            <SoftSkills />
+            <Projects />
+            <ContactForm />
+          </>
+        )}
+        {windowWidth > 768 && (
+          <>
+            <Fade bottom>
+              <About />
+            </Fade>
+            <Fade bottom>
+              <SoftSkills />
+            </Fade>
+            <Fade bottom>
+              <Projects />
+            </Fade>
+            <Fade bottom>
+              <ContactForm />
+            </Fade>
+          </>
+        )}
       </main>
       <footer>
         <Footer />

@@ -6,7 +6,7 @@ import Projects from "../components/Projects";
 import About from "../components/About/About";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
-
+import Fade from "react-reveal";
 export default function HomePage() {
   return (
     <>
@@ -20,16 +20,19 @@ export default function HomePage() {
       </header>
       <main>
         <Home />
-
-        <About />
-
-        <SoftSkills />
-
-        <Projects />
-
-        <ContactForm />
+        <Fade bottom>
+          <About />
+        </Fade>
+        <Fade bottom>
+          <SoftSkills />
+        </Fade>
+        <Fade bottom>
+          <Projects />
+        </Fade>
+        <Fade bottom>
+          <ContactForm />
+        </Fade>
       </main>
-
       <footer>
         <Footer />
       </footer>

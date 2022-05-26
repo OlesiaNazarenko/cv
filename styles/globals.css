@@ -51,6 +51,7 @@ body {
   background-color: var(--light-gray-color);
   color: var(--main-text-color);
   scroll-behavior: smooth;
+  touch-action: auto;
 }
 h2,
 h3,

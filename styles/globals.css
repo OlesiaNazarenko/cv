@@ -43,7 +43,9 @@
 .notiflix-notify-warning {
   background: var(--gray-color) !important;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 html,
 body {
   padding: 0;
@@ -139,5 +141,10 @@ a {
   }
   p {
     font-size: 14px;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
   }
 }

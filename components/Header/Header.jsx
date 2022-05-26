@@ -1,5 +1,6 @@
 import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { useRef, useEffect } from "react";
+import Link from "next/link";
 import s from "./Header.module.css";
 
 export default function Header() {
@@ -18,25 +19,26 @@ export default function Header() {
   const scrollToSection = (e) => {
     const ref = e.target.innerHTML.toLowerCase();
     return sections.forEach((item) => {
-      return item == ref && windowObj.scrollTo(item);
+      return (
+        item == ref && windowObj.scrollTo({ top: item, behavior: "smooth" })
+      );
     });
   };
-
   return (
     <div className={s.header}>
       <Navbar expand="lg" onClick={(e) => scrollToSection(e)}>
         <Container>
-          <Nav.Link href="/#home" className={s.logoLink}>
+          <Nav.Link href="#home" className={s.logoLink}>
             Olesia Nazarenko
           </Nav.Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/#home">Home</Nav.Link>
-              <Nav.Link href="/#about">About</Nav.Link>
-              <Nav.Link href="/#softSkills">Skills</Nav.Link>
-              <Nav.Link href="/#projects">Projects</Nav.Link>
-              <Nav.Link href="/#contactForm">Contacts</Nav.Link>
+              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#softSkills">Skills</Nav.Link>
+              <Nav.Link href="#projects">Projects</Nav.Link>
+              <Nav.Link href="#contactForm">Contacts</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

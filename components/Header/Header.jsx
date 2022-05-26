@@ -20,7 +20,8 @@ export default function Header() {
     const ref = e.target.innerHTML.toLowerCase();
     return sections.forEach((item) => {
       return (
-        item == ref && windowObj.scrollTo({ top: item, behavior: "smooth" })
+        item == ref &&
+        ref.scrollIntoView({ block: "center", behavior: "smooth" })
       );
     });
   };

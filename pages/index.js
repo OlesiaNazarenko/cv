@@ -20,16 +20,16 @@ export default function HomePage() {
       </header>
       <main>
         <Home />
-        <Fade bottom>
+        <Fade>
           <About />
         </Fade>
-        <Fade bottom>
+        <Fade>
           <SoftSkills />
         </Fade>
-        <Fade bottom>
+        <Fade>
           <Projects />
         </Fade>
-        <Fade bottom>
+        <Fade>
           <ContactForm />
         </Fade>
       </main>
